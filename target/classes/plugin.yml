@@ -1,0 +1,6 @@
+name: AllayMail
+version: 1.2
+api-version: 1.20
+main: me.mehboss.allay.Main
+author: mehboss
+description: A creative mail delivery plugin that utilizes the Allay entity.

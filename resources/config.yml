@@ -1,0 +1,39 @@
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# AllayMail by MehBoss                                                                              #
+# Version v1.2                                                                                      #
+#                                                                                                   #        
+# If you find a bug, send me a PM and it will be fixed! :)                                          #
+#                                                                                                   #
+# Perm --> allaymail.use                                                                            #
+# Allows the recipient to gather items, but does not permit initiation of deliveries                #
+#                                                                                                   #
+# Perm --> allaymail.bypass                                                                         #
+# Someone that has this permission will bypass any delivery cooldown set below                      #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+No-Permission: '&cYou do not have permission to use the allay delivery feature!'
+Not-Allowed: '&cYour allay can not deliver across worlds!'
+No-Items-Added: '&cNo items were added. Allay delivery will not proceed.'
+Deliver-To-Self: '&cYou cannot deliver items to yourself!'
+On-Delivery: '&cThis Allay is currently on a delivery and cannot be interacted with.'
+Recipient-Is-Offline: '&cThe recipient is offline. Items cannot be delivered.'
+No-Safe-Location: '&cRecipient is in a different world. No safe location was found for the Allay to deliver your items!'
+Allay-Died: '&cYour Allay has died or despawned and the delivery has failed.'
+Failed-Recipient-Delivery: '&cYour Allay could not reach the recipient and is returning to you.'
+Failed-Sender-Return: '&cYour Allay got lost and has teleported back!'
+Allay-Returning: '&aYour Allay is returning to you.'
+Allay-Returned: '&6Your Allay has returned!'
+Allay-Delivery-Initiated: '&aYour Allay is delivering items to&f %player%!'
+Allay-Notify-Recipient: '&aAn Allay has arrived with items from&f %player%!&a It will return to sender in&f %delay% &aseconds if the items are not taken.'
+Allay-Notify-Sender: '&aYour Allay has arrived to&f %player%! &aIt will return to you in&f %delay% &aseconds if the items being delivered are not taken.'
+Cooldown-Active: '&cYou must wait&f %timeleft%&c more seconds before you are able to make another delivery!'
+Initiate-Teleport: 100 # The distance (in blocks) that dictates how far an Allay must be to be teleported nearby if it is enabled below.
+Teleport-Distance: 20 # The distance (in blocks) the allay will be from a player if teleport-nearby is set to true.
+Safe-Location-Radius: 8 # The radius in which the Allay will safe teleport to if it is sent to a different world.
+Allay-Speed-Multiplier: 1.5 # The speed at which the Allay will travel if it is more than 20 blocks away.
+Return-Delay: 20 # The delay before the Allay returns without its items being taken.
+Find-Delay: 20 # The delay before the Allay force teleports back to the sender.
+Cooldown: 0 # Set a cooldown between deliveries - In seconds.
+Allow-Cross-World: true # Sets whether deliveries across worlds should be allowed.
+Drop-On-Death: true # Sets whether or not the Allay will drop its delivery items if it dies or despawns.
+Teleport-Nearby: true # Sets whether or not the Allay will teleport near the player if they are more than a set distance away.
+Reset-Allay: true # Sets whether or not the Allay will lose its name after completing a delivery or if the sender quits.
